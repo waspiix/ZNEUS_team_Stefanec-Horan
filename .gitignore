@@ -1,0 +1,87 @@
+# =============================
+# Credit Risk Assessment project
+# =============================
+
+# Datasets and raw data
+data/
+dataset/
+*.csv
+*.xls
+*.xlsx
+*.parquet
+*.json
+*.zip
+*.tar
+*.gz
+
+# Trained models and weights
+models/
+checkpoints/
+*.pkl
+*.h5
+*.pt
+*.pth
+*.joblib
+*.sav
+
+# Temporary and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# Notebooks autosaves
+*.ipynb_checkpoints
+
+# Jupyter Notebook outputs (optional)
+# Uncomment if you want to ignore large output cells
+# *.ipynb
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# Colab / Kaggle
+*.ipynb_kernelspec
+*.ipynb_jupyter_metadata
+
+# Generated results
+outputs/
+results/
+plots/
+figures/
+
+# Compiled bytecode and build dirs
+build/
+dist/
+*.egg-info/
+
+# Environment / configuration files
+.env
+*.env
+*.cfg
+*.ini
+*.yaml
+*.yml
+
+# Temporary experiment runs
+runs/
+wandb/
+mlruns/
+
+# Backup or old versions
+*.bak
+*.old
+*.orig
+
